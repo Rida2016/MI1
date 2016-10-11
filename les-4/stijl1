@@ -1,0 +1,21 @@
+body { 
+      background-color:  #02A2B8; 
+      border-style: ridge;
+      text-align: center}     
+            
+
+h1 { color: #C3ECF2;
+     font-size: 300%;
+     font-family:sans-serif;
+     text-align: center} 
+            
+
+
+p { color: #C3ECF2;
+   font-family:sans-serif;
+   text-align: center}
+            
+        
+            
+        
+        
