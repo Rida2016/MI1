@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+    border: 1px solid black;
+}
+</style>
+</head>
+<body>
+    
+<h1> Openingstijden</h1>
+
+<table style="width:100%">
+  <tr>
+    <th>Dag van de week</th>
+    <th>overdag</th>
+    <th>'s avonds</th>
+  </tr>
+  <tr>
+    <td>maandag-vrijdag</td>
+    <td>9.00-18.00</td>
+    <td>19.00-22.00</td>
+  </tr>
+  <tr>
+    <td>zaterdag</td>
+    <td>9.00-17.00</td>
+    <td>gesloten</td>
+  </tr>
+  <tr>
+    <td>zondag</td>
+    <td>10.00-17.00</td>
+    <td>gesloten</td>
+  </tr>
+</table>
+    
+    <form>
+        <form action="action_page.php">
+  <fieldset>
+    <legend>personeel informatie:</legend>
+    Voornaam:<br>
+    <input type="text" name="firstname" value=>
+    <br>
+    Achternaam:<br>
+    <input type="text" name="lastname" value=>
+    <br><br>
+    <input type="submit" value="Submit">
+  
+  <br> <input type="radio" name="gender" value="male" checked> man<br>
+  <input type="radio" name="gender" value="female"> vrouw<br>
+      </fieldset>
+  
+</form>
+
+</body>
+</html>
+
