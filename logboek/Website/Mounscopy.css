@@ -1,52 +1,63 @@
-body{
+body {
     background-image: url(mounsIMG.jpg);
     background-repeat: repeat-x;
-    background-size: 330px;
-    
+    background-size: 310px;
 }
 
-
-*{
-padding:0px;
-margin:0px;
+* {
+    padding: 0px;
+    margin: 0px;
 }
-#Main{
-     width:100%;
-     height:700px;
- }
-#Nav{
-    background: #2d2b2b;
+
+#Main {
     width: 100%;
-    height: 70px;
-    line-height: 70px;
+    height: 1000px;
+    background-color: cornflowerblue;
+}
+
+#Nav {
+    background-color: dimgrey;
+    width: 1300px;
+    height: 60px;
+    line-height: 60px;
     color: white;
     font-family: sans-serif;
-    opacity: 0.7;
-    position: fixed;
-    margin-top: 200px;
+    margin-top: 220px;
+    margin-left: 100px;
 }
-#Nav h1{
+
+#Nav h1 {
     font-weight: 400;
     float: left;
+   
 }
-#Nav ul{
+
+#Nav ul {
     float: right;
-    margin-right: 20px;
 }
-#Nav ul li{
+
+#Nav ul li {
     list-style-type: none;
     display: inline-block;
 }
-#Nav ul li a{
-    color:white;
+
+#Nav ul li a {
+    color: white;
     text-decoration: none;
-    padding: 20px;
+    padding: 30px;
 }
-#Nav ul li:hover{
-    background: blue;
+
+#Nav ul li:hover {
+    background: darkred;
     transition: all 0.45s;
 }
-#ex{
-    height: 1000px;
-    background-color: fuchsia
+
+#Nav ul li a: hover {
+    border-style: groove;
+}
+
+p {
+    margin-top: 50px;
+    text-align:left;
+    font-family: sans-serif;
 }
