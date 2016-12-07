@@ -1,15 +1,37 @@
-
-body {
-    background-color: #808FFE;
+header {
+    margin-top: 30px;
+    height: 150px;
+    position: relative;
 }
 
+body {
+    background-image: url(backIMG2.jpg);
+    background-size: cover;
+}
+hr.line1{
+    height: 25px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #0B34A2 inset;
+    width: 600px;
+    margin-left: 430px;
+    margin-top: 10px
+}
 .Titel {
     font-family:sans-serif;
     font-size: 45px;
-    color: white;
+    color: #0B34A2;
     margin-left: 620px;
-    margin-top: 100px;
-    font-weight: 200;
+    margin-top: 50%;
+    font-weight: 300;
+    text-shadow: 5px 5px 5px black;
+}
+.Titel2{
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #0B34A2;
+    margin-left: 535px;
+    font-weight: 300;
+    text-shadow: 5px 5px 5px black;
 }
 
 * {
@@ -18,30 +40,28 @@ body {
 }
 
 #Main {
-    margin-top: 90px;
+    margin-top: 0px;
     width: 100%;
     height: 365px;
 }
 
 #Nav {
     background-color: #0B34A2;
-    width: 1300px;
-    height: 60px;
-    line-height: 60px;
+    width: 989px;
+    height: 80px;
+    line-height: 80px;
     color: white;
     font-family: sans-serif;
-    margin-left: 100px;
+    margin-left: 255px;
     position: absolute;
     margin-top: 0px;
+    opacity: 0.8;
 }
 
 .imprback {
-    width:100%;
-}
-
-#Nav h1 {
-    font-weight: 400;
-    float: left;
+    margin-left: 200px;
+    width:1100px;
+    height: 400px;
 }
 
 #Nav ul {
@@ -56,7 +76,7 @@ body {
 #Nav ul li a {
     color: white;
     text-decoration: none;
-    padding: 30px;
+    padding: 40px;
 }
 
 #Nav ul li:hover {
@@ -70,17 +90,20 @@ body {
 
 .pagina{
     height: 800px;
-    background-color: #0B34A2;
+    background-color: darkblue;
     margin-left: 200px;
-    margin-right: 200px;
+    margin-right: 250px;
     margin-top: 30px;
     position: relative;
     opacity: 0.8;
+    width:1100px;
 }
 
 .winkel{
     margin-left: 200px;
-    
-    
-    
+}
+
+.Maps{
+    margin-left: 250px;
+    margin-top: 500px
 }
