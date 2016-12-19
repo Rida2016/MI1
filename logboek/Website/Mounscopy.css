@@ -6,7 +6,32 @@ header {
 
 body {
     background-image: url(backIMG2.jpg);
-    background-size: cover;
+    background-size:cover;
+    height: 1350px;
+    width: 1400px;
+    
+}
+p{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: left;
+    width: 660px;
+    position: static;
+    margin-top: 0px;
+}
+.email{
+    text-align: center;
+}
+.intIMG{
+    width: 430px;
+    height: 375px;
+}
+.social{
+    width: 250px;
+    height: 400px;
+    margin-left: 850px;
+    position: absolute;
 }
 hr.line1{
     height: 25px;
@@ -16,6 +41,7 @@ hr.line1{
     margin-left: 430px;
     margin-top: 10px
 }
+
 .Titel {
     font-family:sans-serif;
     font-size: 45px;
@@ -25,6 +51,7 @@ hr.line1{
     font-weight: 300;
     text-shadow: 5px 5px 5px black;
 }
+
 .Titel2{
     font-family: sans-serif;
     font-size: 25px;
@@ -47,12 +74,25 @@ hr.line1{
 
 #Nav {
     background-color: #0B34A2;
-    width: 989px;
+    width: 1060px;
     height: 80px;
     line-height: 80px;
     color: white;
     font-family: sans-serif;
-    margin-left: 255px;
+    margin-left: 220px;
+    position: absolute;
+    margin-top: 0px;
+    opacity: 0.8;
+}
+
+#NavNL{
+    background-color: #0B34A2;
+    width: 1060px;
+    height: 80px;
+    line-height: 80px;
+    color: white;
+    font-family: sans-serif;
+    margin-left: 220px;
     position: absolute;
     margin-top: 0px;
     opacity: 0.8;
@@ -64,11 +104,13 @@ hr.line1{
     height: 400px;
 }
 
-#Nav ul {
-    float: right;
-}
 
 #Nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+#NavNL ul li{
     list-style-type: none;
     display: inline-block;
 }
@@ -76,7 +118,28 @@ hr.line1{
 #Nav ul li a {
     color: white;
     text-decoration: none;
-    padding: 40px;
+    padding: 59.5px;
+    text-align: left;
+}
+
+#NavNL ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 49.7px;
+    text-align: left;
+
+}
+
+#Nav ul li a.active {
+    color: blue;
+    background-color: white;
+    padding:31px;
+}
+
+#NavNL ul li a.active{
+    color: blue;
+    background-color: white;
+    padding:31px;
 }
 
 #Nav ul li:hover {
@@ -84,26 +147,163 @@ hr.line1{
     transition: all 0.45s;
 }
 
-#Nav ul li a: hover {
+#NavNL ul li:hover {
+    background: darkred;
+    transition: all 0.45s;
+}
+
+#Nav ul li a: hover{
+    border-style: groove;
+}
+
+#NavNL ul li a: hover {
     border-style: groove;
 }
 
 .pagina{
-    height: 800px;
+    height: 900px;
     background-color: darkblue;
     margin-left: 200px;
     margin-right: 250px;
-    margin-top: 30px;
+    margin-top: 33.9px;
     position: relative;
     opacity: 0.8;
     width:1100px;
 }
 
-.winkel{
-    margin-left: 200px;
+table, td, th {
+    border: 1px solid white;
 }
 
-.Maps{
-    margin-left: 250px;
-    margin-top: 500px
+table {
+    border-collapse: collapse;
+    width: 700px;
+    height: 300px;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+    
 }
+
+th {
+    height: 50px;
+    
+}
+.Maps{
+    margin-left: 50px;
+    margin-top: 250px;
+    opacity: 100% all;
+}
+
+.TitelVoorpagina{
+    color: #0B34A2;
+    font-size: 90px;
+    text-align: center;
+    font-family: sans-serif;
+    text-shadow: 10px 5px 5px black;
+}
+.TitelVoorpagina2{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    margin-top: 50px;
+    
+}
+.winkelVoorpagina{
+    margin-left: 400px;
+    margin-top: 0px;
+    position: absolute;
+    
+}
+
+hr.line2{
+    height: 25px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #0B34A2 inset;
+    width: 600px;
+    margin-left: 400px;
+    margin-top: 0px;
+}
+#Buttons{
+    height: 200px;
+    width: 450px;
+    margin-top: 399px;
+    margin-left: 610px;
+}
+.button,.button2{
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 19px;
+    font-family: sans-serif;
+    position: static;
+    display:inline-block;
+    padding:8px;
+    text-align: center;
+    color: white;
+    background-color: #0B34A2;
+    
+}
+
+.button:hover,.button2:hover{
+    
+    box-shadow: 5px 5px 5px white;
+    font-size: 23px;
+    
+}
+
+.opuren{
+    margin-top: 55px;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 35px;
+    position:absolute;
+    margin-left: 100px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
