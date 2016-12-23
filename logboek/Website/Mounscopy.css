@@ -19,19 +19,31 @@ p{
     width: 660px;
     position: static;
     margin-top: 0px;
+    margin-left: 15px;
 }
+
+
 .email{
     text-align: center;
+    font-size: 17px;
 }
+
 .intIMG{
     width: 430px;
     height: 375px;
+    margin-left: 150px;
 }
 .social{
-    width: 250px;
-    height: 400px;
-    margin-left: 850px;
+    width: 280px;
+    height: 100px;
+    margin-left: 800px;
     position: absolute;
+    margin-top: 0px;
+}
+.social1{
+    color:white;
+    font-family: sans-serif;
+    font-size: 15px;
 }
 hr.line1{
     height: 25px;
@@ -162,24 +174,36 @@ hr.line1{
 
 .pagina{
     height: 900px;
-    background-color: darkblue;
+    background-color:#0B34A2;
     margin-left: 200px;
     margin-right: 250px;
     margin-top: 33.9px;
     position: relative;
-    opacity: 0.8;
-    width:1100px;
+    background: rgba(0, 0, 184, 0.6);
+    width: 1100px;
+    
+}
+.pagina2{
+    height: 700px;
+    background-color:#0B34A2;
+    margin-left: 200px;
+    margin-right: 250px;
+    margin-top: 33.9px;
+    position: relative;
+    background: rgba(0, 0, 184, 0.6);
+    width: 1100px;
 }
 
 table, td, th {
     border: 1px solid white;
+    border-collapse: collapse;
+    color: white;
 }
 
-table {
-    border-collapse: collapse;
+.horaires {
+    
     width: 700px;
     height: 300px;
-    color: white;
     font-size: 30px;
     position: absolute;
     margin-top: 100px;
@@ -189,12 +213,60 @@ table {
 
 th {
     height: 50px;
+}
+
+.tarifs{
+    height: 250px;
+    width:600px;
+    font-size: 18px;
+    margin-left: 12px;
     
 }
+.tarifs1{
+    height: 200px;
+    width: 150px;
+    font-size: 18px;
+    margin-top: 12px;
+}
+.tarifs2{
+    height: 200px;
+    width:150px;
+    font-size: 18px;
+    margin-left: 155px;
+    margin-top: -200px;
+    position: absolute;
+}
+
+.tarifs3{
+    height: 200px;
+    width:150px;
+    font-size: 18px;
+    margin-left: 310px;
+    margin-top: -200px;
+    position: absolute;
+}
+
+.tarifs4{
+    height: 200px;
+    width:150px;
+    font-size: 18px;
+    margin-left: 465px;
+    margin-top: -200px;
+    position: absolute;
+}
+.tarifs5{
+    height: 300px;
+    width:150px;
+    font-size: 18px;
+    margin-left:625px;
+    margin-top: -461px;
+    position: absolute;
+}
+
 .Maps{
-    margin-left: 50px;
-    margin-top: 250px;
-    opacity: 100% all;
+    margin-left: 20px;
+    margin-top: 30px;
+    position: absolute;
 }
 
 .TitelVoorpagina{
@@ -264,24 +336,50 @@ hr.line2{
     
 }
 
+form{
+    position: absolute;
+    max-width: 450px;
+    margin-left: 790px;
+    margin-top: 180px;
+}
 
+label{
+    display: block;
+    margin-bottom: 20px;
+}
 
+span{
+    display: block;
+    color: white;
+    font-size: 15px;
+}
+input{
+    width: 290px;
+    height: 20px;
+}
 
+textarea{
+     width: 290px;
+    height: 90px;
+}
 
+.contact{
+    font-size: 18px;
+    width: 400px;
+    position: relative;
+    display: block;
+}
 
+.copieurs{
+    height: 350px;
+    margin-left: 40px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.stock{
+    width: 300px;
+    margin-left: 260px;
+    height: 650px;
+}
 
 
 
