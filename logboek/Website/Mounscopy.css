@@ -6,6 +6,7 @@ header {
 
 body {
     background-image: url(backIMG2.jpg);
+    background-position: fixed;
     background-size:cover;
     height: 1350px;
     width: 1400px;
@@ -22,10 +23,17 @@ p{
     margin-left: 15px;
 }
 
-
+#langue{
+    color: white;
+    text-decoration: none;
+    font-size: 1.6em;
+    float: right;
+    margin-top: -3em;
+}
 .email{
     text-align: center;
     font-size: 17px;
+    text-transform: none;
 }
 
 .intIMG{
@@ -34,7 +42,7 @@ p{
     margin-left: 150px;
 }
 .social{
-    width: 280px;
+    width: 270px;
     height: 100px;
     margin-left: 800px;
     position: absolute;
@@ -84,31 +92,21 @@ hr.line1{
     height: 365px;
 }
 
-#Nav {
+#Nav,#NavNL {
     background-color: #0B34A2;
-    width: 1060px;
+    width: 1076px;
     height: 80px;
-    line-height: 80px;
+    line-height: 78px;
+    outline-width: 50px;
     color: white;
     font-family: sans-serif;
-    margin-left: 220px;
+    margin-left: 215px;
     position: absolute;
     margin-top: 0px;
     opacity: 0.8;
 }
 
-#NavNL{
-    background-color: #0B34A2;
-    width: 1060px;
-    height: 80px;
-    line-height: 80px;
-    color: white;
-    font-family: sans-serif;
-    margin-left: 220px;
-    position: absolute;
-    margin-top: 0px;
-    opacity: 0.8;
-}
+
 
 .imprback {
     margin-left: 200px;
@@ -117,60 +115,41 @@ hr.line1{
 }
 
 
-#Nav ul li {
+#Nav ul li, #NavNL ul li {
     list-style-type: none;
     display: inline-block;
 }
 
-#NavNL ul li{
-    list-style-type: none;
-    display: inline-block;
-}
 
-#Nav ul li a {
+
+#Nav ul li a,#NavNL ul li a {
     color: white;
     text-decoration: none;
     padding: 59.5px;
     text-align: left;
 }
 
-#NavNL ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 49.7px;
-    text-align: left;
+ 
 
-}
-
-#Nav ul li a.active {
+#Nav ul li a.active, #NavNL ul li a.active{
     color: blue;
     background-color: white;
     padding:31px;
 }
 
-#NavNL ul li a.active{
-    color: blue;
-    background-color: white;
-    padding:31px;
-}
 
-#Nav ul li:hover {
+
+#Nav ul li:hover,#NavNL ul li:hover {
     background: darkred;
     transition: all 0.45s;
 }
 
-#NavNL ul li:hover {
-    background: darkred;
-    transition: all 0.45s;
-}
 
-#Nav ul li a: hover{
+#Nav ul li a: hover,#NavNL ul li a: hover{
     border-style: groove;
 }
 
-#NavNL ul li a: hover {
-    border-style: groove;
-}
+
 
 .pagina{
     height: 900px;
@@ -380,28 +359,5 @@ textarea{
     margin-left: 260px;
     height: 650px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*-- MOBILE --*/
 
